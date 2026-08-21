@@ -2,6 +2,12 @@
   <img src="docs/images/hero.png" alt="窗边麻糬桌面宠物主界面" width="100%" />
   <h1>窗边麻糬 · Mochi Desktop Pet</h1>
   <p>一只会散步、撒娇、玩耍，也会安静陪你工作的桌面小猫。</p>
+  <p>
+    <a href="https://github.com/littlexx15/mochimochi-cat/releases/download/v1.1.0/MochiDesktopPet-1.1.0-Windows-x64.exe">
+      <img src="https://img.shields.io/badge/Windows_10%2F11-下载免安装版-cb5c3a?style=for-the-badge&logo=windows11&logoColor=white" alt="下载 Windows 免安装版" />
+    </a>
+  </p>
+  <p><sub>v1.1.0 · 约 69 MB · 下载后双击运行 · 无需安装 Node.js</sub></p>
 </div>
 
 ## 关于麻糬
@@ -51,10 +57,19 @@
 
 ## 运行桌面版
 
+### Windows 10 / 11（推荐）
+
+1. 点击页面顶部的 **下载免安装版**，或前往 [GitHub Releases](https://github.com/littlexx15/mochimochi-cat/releases/latest)。
+2. 下载 `MochiDesktopPet-1.1.0-Windows-x64.exe`。
+3. 双击文件，小猫就会出现在桌面上；无需安装 Node.js，也无需解压。
+
+> 当前版本尚未购买代码签名证书。如果 Windows SmartScreen 首次运行时提示“Windows 已保护你的电脑”，请点击“更多信息”→“仍要运行”。
+
+### 源码运行 / macOS
+
 1. 安装 [Node.js LTS](https://nodejs.org/)。
 2. 下载并解压仓库中的 `public/MochiDesktop.zip`。
 3. Windows 双击 `开始.bat`；macOS 双击 `start.command`。
-4. 第一次运行会自动准备 Electron 组件，之后启动会更快。
 
 ## 技术栈
 
