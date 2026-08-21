@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Noto+Sans+SC:wght@400;500;600&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --color-paper: #f4efe6;
+  --color-paper-deep: #e7dccb;
+  --color-surface: #faf6ef;
+  --color-ink: #2c241c;
+  --color-muted: #8a7d6e;
+  --color-accent: #c45c3a;
+  --color-accent-fg: #faf6ef;
+  --color-sage: #6b7c5e;
+  --color-wood: #c4a574;
+  --color-border: #d9cfc0;
+  --color-night: #1b2230;
+  --font-display: "Fraunces", "Noto Sans SC", serif;
+  --font-sans: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei",
+    sans-serif;
+  --radius-xs: 6px;
+  --radius-sm: 10px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 32px;
+  --shadow-soft: 0 10px 30px -12px rgb(44 36 28 / 0.28);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html,
+  body,
+  #app {
+    min-height: 100dvh;
+    background: var(--color-paper);
+    color: var(--color-ink);
+    font-family: var(--font-sans);
+  }
+
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

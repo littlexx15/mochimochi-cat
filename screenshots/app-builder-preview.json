@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8080/",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "窗边麻糬",
+      "hasCanvas": false,
+      "bodyTextLen": 61,
+      "bodyTextHash": "1d79a51d2558e9013cd1ea2d328a651d609f10a2d3984d907f92d27e3d6694f8",
+      "bodyTextPrefix": "窗边 一只想被领养的小猫 它会在房间里散步、打盹、追毛线球。点地板叫它过来，拖起来也能抱一抱。 给它起个名字 开始一起生活",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "窗边麻糬",
+      "hasCanvas": false,
+      "bodyTextLen": 61,
+      "bodyTextHash": "1d79a51d2558e9013cd1ea2d328a651d609f10a2d3984d907f92d27e3d6694f8",
+      "bodyTextPrefix": "窗边 一只想被领养的小猫 它会在房间里散步、打盹、追毛线球。点地板叫它过来，拖起来也能抱一抱。 给它起个名字 开始一起生活",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/app-builder-preview-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "authWarnings": [],
+  "verdictFile": "/workspace/screenshots/app-builder-preview.json"
+}
